@@ -61,10 +61,10 @@ def predict_using_RF(data):
     # print("Best score", classifier.best_score_)
 
     # creating Random Forest classifier object with the best parameters received from above function
-    classifier = RandomForestClassifier(n_estimators=500,
+    classifier = RandomForestClassifier(n_estimators=700,
                                         criterion='entropy',
-                                        min_samples_leaf=85,
-                                        max_features='auto', bootstrap=True)
+                                        min_samples_leaf=150,
+                                        max_features='sqrt', bootstrap=True)
 
     # training the model
     st_time = time.time()
