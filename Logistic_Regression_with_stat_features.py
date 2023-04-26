@@ -21,10 +21,10 @@ def predict_using_LR(data):
     target = sensor_data.iloc[:, 0]
 
     # split the train and test data
-    x_train, x_test, y_train, y_test = train_test_split(features, target, test_size=0.2, random_state=42)
+    x_train, x_test, y_train, y_test = train_test_split(features, target, test_size=0.2)
 
     # define the multinomial logistic regression model
-    model = LogisticRegression(multi_class='ovr', solver='liblinear')
+    model = LogisticRegression(multi_class='auto', solver='liblinear', random_state=42)
 
     # training the model
     st_time = time.time()
