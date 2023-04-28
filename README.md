@@ -15,21 +15,14 @@ Please install the prerequisite Softwares and libraries in order to run the scri
 1. [Python 3](https://www.python.org/downloads/) or greater. (Required)
 2. Python Libraries (Run the below *pip* commands in a **Terminal** or **Command-Prompt** window):
 
-***numpy**: `pip install numpy==1.21.5`
-
-***jupyter-notebook**: `pip install jupyter`
-
-***scipy**: `pip install scipy==1.10.1`
-
-***pandas**: `pip install pandas==1.5.3`
-
-***scikit-learn**: `pip install scikit-learn==1.2.1`
-
-***matplotlib**: `pip install matplotlib==3.7.0`
-
-***seaborn**: `pip install seaborn==0.11.2`
-
-***xgboost**: `pip install xgboost==1.7.4`
+* **numpy**: `pip install numpy==1.21.5`
+* **jupyter-notebook**: `pip install jupyter`
+* **scipy**: `pip install scipy==1.10.1`
+* **pandas**: `pip install pandas==1.5.3`
+* **scikit-learn**: `pip install scikit-learn==1.2.1`
+* **matplotlib**: `pip install matplotlib==3.7.0`
+* **seaborn**: `pip install seaborn==0.11.2`
+* **xgboost**: `pip install xgboost==1.7.4`
 
 3. [VS Code](https://code.visualstudio.com/download) - A light-weight IDE (Optional)
 
